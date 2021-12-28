@@ -11,10 +11,11 @@ using namespace std;
 //###INSERT CODE HERE -
 int isSumOfConsecutive(int n){
     int i, j, s, c = 0;
-    for (i = 2; i <= (n / 2); i++){
+    for (i = 1; i <= (n / 2); i++){
         s = i;
         for (j = i + 1; j <= (n / 2) + 1; j++){ 
             s += j;
+            if(s > n) break;
             if (s == n) {
                 ++c;
                 break;
