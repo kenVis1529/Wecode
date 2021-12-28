@@ -12,10 +12,8 @@ using namespace std;
 int isSumOfConsecutive(int n){
     int i, j, s, c = 0;
     for (i = 2; i <= (n / 2); i++){
-        j = i;
         s = i;
-        while (s < n){
-            j++;
+        for (j = i + 1; j <= (n / 2) + 1; j++){ 
             s += j;
             if (s == n) {
                 ++c;
