@@ -43,7 +43,12 @@
         "xtr1common": "cpp",
         "xutility": "cpp",
         "iomanip": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "algorithm": "cpp",
+        "fstream": "cpp",
+        "vector": "cpp",
+        "xlocmon": "cpp",
+        "xloctime": "cpp"
     },
     "git.ignoreLimitWarning": true
 }
