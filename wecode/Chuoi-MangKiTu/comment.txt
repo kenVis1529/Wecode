@@ -1,0 +1,11 @@
+trung    kien  trung ta (s1)
+0 9 15 21              (vt)
+5 4 5 2                 (e)
+
+trung kien trung ta
+
+2     1    0     1       (wcount)
+
+trung: 2
+kien: 1
+ta: 1
